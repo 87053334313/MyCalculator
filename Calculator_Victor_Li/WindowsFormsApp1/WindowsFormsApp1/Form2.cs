@@ -17,8 +17,10 @@ namespace WindowsFormsApp1
             InitializeComponent();
             this.switchOp.DropDownStyle =
     System.Windows.Forms.ComboBoxStyle.DropDownList;
-           
-          
+            int ScreenWidth = Screen.PrimaryScreen.Bounds.Width;
+            int ScreenHeight = Screen.PrimaryScreen.Bounds.Height;
+            this.Location = new Point((ScreenWidth / 2) - (this.Width / 2), (ScreenHeight / 2) - (this.Height / 2));
+
 
         }
 

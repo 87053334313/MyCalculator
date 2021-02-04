@@ -253,6 +253,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.label1);
             this.Name = "Form3KV";
             this.Text = "Form3";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.Form3KV_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ImageCalc)).EndInit();
             this.ResumeLayout(false);

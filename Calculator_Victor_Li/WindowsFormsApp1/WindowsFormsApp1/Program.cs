@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormStart());
+            Application.Run(new FormGreeting());
         }
 
         public static bool Factorial(int n, out int answer)

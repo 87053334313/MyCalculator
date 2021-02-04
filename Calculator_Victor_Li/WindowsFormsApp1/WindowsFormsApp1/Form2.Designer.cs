@@ -29,6 +29,7 @@ namespace WindowsFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.myVal = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,6 +43,7 @@ namespace WindowsFormsApp1
             this.switchOp = new System.Windows.Forms.ComboBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -60,6 +62,7 @@ namespace WindowsFormsApp1
             this.myVal.Name = "myVal";
             this.myVal.Size = new System.Drawing.Size(106, 20);
             this.myVal.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.myVal, "введи число в качестве разделителя используй запятую");
             // 
             // label2
             // 
@@ -79,6 +82,7 @@ namespace WindowsFormsApp1
             this.button1.Size = new System.Drawing.Size(88, 46);
             this.button1.TabIndex = 3;
             this.button1.Text = "Возведение в степень";
+            this.toolTip1.SetToolTip(this.button1, "чтобы получить результат нажми на эту кнопку");
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -100,6 +104,7 @@ namespace WindowsFormsApp1
             this.MyResult.Name = "MyResult";
             this.MyResult.Size = new System.Drawing.Size(189, 26);
             this.MyResult.TabIndex = 5;
+            this.toolTip1.SetToolTip(this.MyResult, "здесь выводится результат");
             this.MyResult.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label4
@@ -140,6 +145,7 @@ namespace WindowsFormsApp1
             this.button2.Size = new System.Drawing.Size(189, 67);
             this.button2.TabIndex = 10;
             this.button2.Text = "выполнить простую \n инженерную операцию \n для выбранного поля выше";
+            this.toolTip1.SetToolTip(this.button2, "нажми на меня!");
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -156,15 +162,17 @@ namespace WindowsFormsApp1
             this.switchOp.Name = "switchOp";
             this.switchOp.Size = new System.Drawing.Size(290, 21);
             this.switchOp.TabIndex = 11;
+            this.toolTip1.SetToolTip(this.switchOp, "Выбери функцию любую");
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Red;
-            this.button3.Location = new System.Drawing.Point(685, 23);
+            this.button3.Location = new System.Drawing.Point(685, 27);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 12;
             this.button3.Text = "выход";
+            this.toolTip1.SetToolTip(this.button3, "для закрытия окна");
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -176,8 +184,14 @@ namespace WindowsFormsApp1
             this.button4.Size = new System.Drawing.Size(75, 74);
             this.button4.TabIndex = 13;
             this.button4.Text = "Очистить ВСЁ";
+            this.toolTip1.SetToolTip(this.button4, "чтобы очистить все поля");
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // toolTip1
+            // 
+            this.toolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.toolTip1.ToolTipTitle = "Подсказка";
             // 
             // FormIng
             // 
@@ -200,7 +214,9 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormIng";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Инженерная часть моего калькултяора";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.FormIng_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -222,5 +238,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ComboBox switchOp;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }

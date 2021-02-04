@@ -16,6 +16,9 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             ImageCalc.Image = Properties.Resources.VictorCalc;
+            int ScreenWidth = Screen.PrimaryScreen.Bounds.Width;
+            int ScreenHeight = Screen.PrimaryScreen.Bounds.Height;
+            this.Location = new Point((ScreenWidth / 2) - (this.Width / 2), (ScreenHeight / 2) - (this.Height / 2));
         }
 
         private void label2_Click(object sender, EventArgs e)

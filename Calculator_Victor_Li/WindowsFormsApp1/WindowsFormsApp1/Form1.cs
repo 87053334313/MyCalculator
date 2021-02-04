@@ -120,5 +120,34 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void goToWindowOfToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3KV newform3 = new Form3KV();
+            newform3.Show();
+        }
+
+        private void goToIngenerCalculatorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormIng newForm2 = new FormIng();
+            newForm2.Show();
+        }
+
+        private void закрытьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void перейтиКИнженерномуКалькуляторуToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormIng newForm2 = new FormIng();
+            newForm2.Show();
+        }
+
+        private void перейтиККвадратномуУравнениюToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3KV newform3 = new Form3KV();
+            newform3.Show();
+        }
     }
 }
