@@ -96,7 +96,7 @@ namespace WindowsFormsApp1
             }
             catch (System.FormatException a)
             {
-                MessageBox.Show("Ты ничего не ввел ");
+                MessageBox.Show("Ты ничего нормального не ввел ");
             }
            
         }

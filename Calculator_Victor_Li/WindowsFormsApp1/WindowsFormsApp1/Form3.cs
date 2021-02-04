@@ -28,11 +28,18 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double a = Convert.ToDouble(A_textBox.Text);
-            double b = Convert.ToDouble(B_TextBox.Text);
-            double c = Convert.ToDouble(C_TB.Text);
-            string otvet = KvadratnoeUravnenie.KvUravnenie(a, b, c);
-            RichTextBox.Text = otvet;
+            try
+            {
+                double a = Convert.ToDouble(A_textBox.Text);
+                double b = Convert.ToDouble(B_TextBox.Text);
+                double c = Convert.ToDouble(C_TB.Text);
+                string otvet = KvadratnoeUravnenie.KvUravnenie(a, b, c);
+                RichTextBox.Text = otvet;
+            }
+            catch(System.FormatException a)
+            {
+                MessageBox.Show("произошла ошибка связананя с некоректным водом данных \n проверь вводимые поля");
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)

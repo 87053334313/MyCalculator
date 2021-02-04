@@ -83,7 +83,7 @@ namespace WindowsFormsApp1
             }
             catch(System.FormatException a)
             {
-                MessageBox.Show("Ты не ввел в какое то поле данные!");
+                MessageBox.Show("Ты не ввел в какое то поле нормальные данные!");
             }
         }
 
@@ -148,6 +148,16 @@ namespace WindowsFormsApp1
         {
             Form3KV newform3 = new Form3KV();
             newform3.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -102,9 +102,10 @@ namespace WindowsFormsApp1
             this.MyResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.MyResult.Location = new System.Drawing.Point(296, 400);
             this.MyResult.Name = "MyResult";
+            this.MyResult.ReadOnly = true;
             this.MyResult.Size = new System.Drawing.Size(189, 26);
             this.MyResult.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.MyResult, "здесь выводится результат");
+            this.toolTip1.SetToolTip(this.MyResult, "я специально заблокировл воод чтобы ты случайно не удалил в ответе ничего");
             this.MyResult.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label4

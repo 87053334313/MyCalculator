@@ -73,6 +73,7 @@ namespace WindowsFormsApp1
             this.textBox1.Size = new System.Drawing.Size(187, 29);
             this.textBox1.TabIndex = 1;
             this.toolTip1.SetToolTip(this.textBox1, "Если хочешь ввести дробное число используй в качестве разделителя запятую");
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -100,11 +101,12 @@ namespace WindowsFormsApp1
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(156, 170);
+            this.label3.Location = new System.Drawing.Point(162, 150);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(301, 20);
+            this.label3.Size = new System.Drawing.Size(305, 40);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Выберите арифметическую опреацию";
+            this.label3.Text = "Выберите арифметическую опреацию \n первого числа над вторым";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // comboBox1
             // 
@@ -115,7 +117,7 @@ namespace WindowsFormsApp1
             "-",
             "*",
             "/"});
-            this.comboBox1.Location = new System.Drawing.Point(211, 193);
+            this.comboBox1.Location = new System.Drawing.Point(191, 193);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(197, 32);
             this.comboBox1.TabIndex = 5;
@@ -125,7 +127,7 @@ namespace WindowsFormsApp1
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button1.Location = new System.Drawing.Point(22, 251);
+            this.button1.Location = new System.Drawing.Point(240, 245);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(108, 40);
             this.button1.TabIndex = 6;
@@ -137,7 +139,7 @@ namespace WindowsFormsApp1
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button2.Location = new System.Drawing.Point(473, 251);
+            this.button2.Location = new System.Drawing.Point(479, 271);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(95, 36);
             this.button2.TabIndex = 7;
@@ -149,8 +151,9 @@ namespace WindowsFormsApp1
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3.Location = new System.Drawing.Point(211, 333);
+            this.textBox3.Location = new System.Drawing.Point(191, 333);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(210, 29);
             this.textBox3.TabIndex = 8;
             this.toolTip1.SetToolTip(this.textBox3, "чтобы посчиталось это поле нажми зеленую кнопку посчитать");
@@ -159,7 +162,7 @@ namespace WindowsFormsApp1
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(259, 293);
+            this.label4.Location = new System.Drawing.Point(238, 293);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(111, 25);
             this.label4.TabIndex = 9;
@@ -167,7 +170,7 @@ namespace WindowsFormsApp1
             // 
             // GoToIngenerCalc
             // 
-            this.GoToIngenerCalc.Location = new System.Drawing.Point(638, 185);
+            this.GoToIngenerCalc.Location = new System.Drawing.Point(650, 185);
             this.GoToIngenerCalc.Name = "GoToIngenerCalc";
             this.GoToIngenerCalc.Size = new System.Drawing.Size(154, 51);
             this.GoToIngenerCalc.TabIndex = 10;
@@ -190,7 +193,7 @@ namespace WindowsFormsApp1
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(638, 261);
+            this.button4.Location = new System.Drawing.Point(652, 261);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(154, 57);
             this.button4.TabIndex = 12;
@@ -239,7 +242,7 @@ namespace WindowsFormsApp1
             // закрытьToolStripMenuItem
             // 
             this.закрытьToolStripMenuItem.Name = "закрытьToolStripMenuItem";
-            this.закрытьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.закрытьToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.закрытьToolStripMenuItem.Text = "закрыть!";
             this.закрытьToolStripMenuItem.Click += new System.EventHandler(this.закрытьToolStripMenuItem_Click);
             // 

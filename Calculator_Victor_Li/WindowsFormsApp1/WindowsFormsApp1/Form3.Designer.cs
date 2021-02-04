@@ -199,9 +199,11 @@ namespace WindowsFormsApp1
             // 
             this.RichTextBox.Location = new System.Drawing.Point(262, 267);
             this.RichTextBox.Name = "RichTextBox";
+            this.RichTextBox.ReadOnly = true;
             this.RichTextBox.Size = new System.Drawing.Size(207, 96);
             this.RichTextBox.TabIndex = 16;
             this.RichTextBox.Text = "";
+            this.toolTip1.SetToolTip(this.RichTextBox, "сюда ничего нельзя вводить, это поле только для ответов");
             // 
             // button1
             // 
@@ -227,6 +229,7 @@ namespace WindowsFormsApp1
             this.ImageCalc.Size = new System.Drawing.Size(171, 223);
             this.ImageCalc.TabIndex = 18;
             this.ImageCalc.TabStop = false;
+            this.toolTip1.SetToolTip(this.ImageCalc, "тут должна быть кортинка с калькулятором");
             // 
             // Form3KV
             // 
