@@ -1,0 +1,12 @@
+C:\Users\VictorLi\Desktop\кулькулятор\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\VictorLi\Desktop\кулькулятор\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\VictorLi\Desktop\кулькулятор\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\VictorLi\Desktop\кулькулятор\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\VictorLi\Desktop\кулькулятор\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\VictorLi\Desktop\кулькулятор\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\VictorLi\Desktop\кулькулятор\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\VictorLi\Desktop\кулькулятор\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\VictorLi\Desktop\кулькулятор\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\VictorLi\Desktop\кулькулятор\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormIng.resources
+C:\Users\VictorLi\Desktop\кулькулятор\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormStart.resources
+C:\Users\VictorLi\Desktop\кулькулятор\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3KV.resources
