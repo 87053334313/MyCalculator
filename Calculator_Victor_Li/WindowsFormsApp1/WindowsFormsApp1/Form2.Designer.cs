@@ -217,7 +217,9 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.myVal);
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormIng";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Инженерная часть моего калькултяора";
