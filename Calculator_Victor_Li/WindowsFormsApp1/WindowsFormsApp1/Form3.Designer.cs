@@ -259,7 +259,7 @@ namespace WindowsFormsApp1
             this.MaximizeBox = false;
             this.Name = "Form3KV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Form3";
+            this.Text = "Raschet kvadratnogo uravneniya";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form3KV_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ImageCalc)).EndInit();

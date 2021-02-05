@@ -22,3 +22,4 @@ C:\Users\VictorLi\Desktop\кулькулятор_LiVictor\Calculator_Victor_Li\W
 C:\Users\VictorLi\Desktop\кулькулятор_LiVictor\Calculator_Victor_Li\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\VictorLi\Desktop\кулькулятор_LiVictor\Calculator_Victor_Li\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\VictorLi\Desktop\кулькулятор_LiVictor\Calculator_Victor_Li\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormGreeting.resources
+C:\Users\VictorLi\Desktop\кулькулятор_LiVictor\Calculator_Victor_Li\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
